@@ -20,7 +20,7 @@ public class MapperController {
 	@ResponseBody
 	public List<Book> queryBook(){
 		List<Book> books=bookMapper.queryAllBook();
-		return books;
+		return books; 
 	}
 	
 }
